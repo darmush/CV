@@ -1,0 +1,281 @@
+{
+    "document-title": {
+        "en": "Darya Podskrebalina · Frontend Developer",
+        "ru": "Дарья Подскребалина · Frontend Developer"
+    },
+
+    "nav-about": {
+        "en": "about",
+        "ru": "обо мне"
+    },
+
+    "nav-projects": {
+        "en": "projects",
+        "ru": "проекты"
+    },
+
+    "nav-contacts": {
+        "en": "contacts",
+        "ru": "контакты"
+    },
+
+    "nav-en": {
+        "en": "en",
+        "ru": "en"
+    },
+
+    "nav-ru": {
+        "en": "ru",
+        "ru": "ру"
+    },
+
+    "title-name": {
+        "en": "Darya",
+        "ru": "Дарья"
+    },
+
+    "title-last-name": {
+        "en": "Podskrebalina",
+        "ru": "Подскребалина"
+    },
+
+    "subtitle": {
+        "en": "Frontend Developer",
+        "ru": "Frontend Developer"
+    },
+
+    "about-text-1": {
+        "en": "I am a front-end developer from Kazakhstan.",
+        "ru": "Я фронтенд разработчица из Казахстана."
+    },
+
+    "about-text-2": {
+        "en": "I love when the complex becomes simple with the help of visualization. I love cool interactive design and animation.",
+        "ru": "Обожаю, когда сложное становится простым при помощи визуализации. Люблю классный интерактивный дизайн и анимацию."
+    },
+
+    "about-text-3": {
+        "en": "I consider accessibility and good user experience important. I strive to create services that can be used by as many people as possible.",
+        "ru": "Считаю важными доступность и хороший пользовательский опыт. Стремлюсь создавать сервисы, которыми смогут пользоваться как можно большее количество людей."
+    },
+
+    "about-title-education": {
+        "en": "Education & Experience",
+        "ru": "Профессиональный опыт"
+    },
+
+    "position": {
+        "en": "position",
+        "ru": "должность"
+    },
+
+    "description": {
+        "en": "description",
+        "ru": "описание"
+    },
+
+    "year": {
+        "en": "year",
+        "ru": "год"
+    },
+
+    "about-pos-illustrator": {
+        "en": "Illustrator & Motion Designer",
+        "ru": "Иллюстраторка и моушн дизайнерка"
+    },
+
+    "about-des-illustrator": {
+        "en": "Created illustrations and animation for websites and apps, use of guidelines and brand books. Worked with digital agencies, designers and art directors.",
+        "ru": "Создание иллюстраций, анимаций для сайтов и приложений, использование гайдлайнов и брендбуков. Работа с диджитал агенствами, дизайнерами и арт директорами."
+    },
+
+    "about-des-illustrator-place": {
+        "en": "// Freelance, BeaverBrothers, PixelPoint.",
+        "ru": "// Фриланс, BeaverBrothers, PixelPoint."
+    },
+
+    "about-pos-self": {
+        "en": "Self-Employed Ceramic",
+        "ru": "Самозанятая керамистка"
+    },
+
+    "about-des-self": {
+        "en": "Work on the ceramic brand Gribooli. Creation and sale of clay products, participation in markets, maintaining social networks.",
+        "ru": "Работа над керамическим брендом Gribooli. Создание и продажа изделий из глины, участие в маркетах, ведение соцсетей."
+    },
+
+    "about-des-self-place": {
+        "en": "// Ceramic Studio",
+        "ru": "// Керамическая студия"
+    },
+
+    "about-pos-student": {
+        "en": "Frontend Developer Student",
+        "ru": "Студентка фронтенд разработчица"
+    },
+
+    "about-des-student": {
+        "en": "Studying at the JS Course RS School. Self-learning based on open access materials. Work on pet projects under the guidance of a mentor.",
+        "ru": "Обучение на курсе JS Course RS School. Самообучение по материалам в открытом доступе. Работа над пэт проектами под руководством ментора."
+    },
+
+    "about-pos-developer": {
+        "en": "Frontend Developer",
+        "ru": "Фронтенд разработчица"
+    },
+    "about-des-developer": {
+        "en": "In the process of looking for a job. ",
+        "ru": "В процессе поиска работы."
+    },
+
+    "about-des-developer-link": {
+        "en": "Look my projects.",
+        "ru": "Посмотреть мои проекты."
+    },
+
+    "about-title-languages": {
+        "en": "Languages & Technologies",
+        "ru": "Навыки"
+    },
+
+    "programming-languages": {
+        "en": "programming languages",
+        "ru": "языки программирования"
+    },
+
+    "tools": {
+        "en": "tools",
+        "ru": "инструменты"
+    },
+
+    "russian": {
+        "en": "russian // native",
+        "ru": "русский // носитель"
+    },
+
+    "english": {
+        "en": "english // a2",
+        "ru": "английский // a2"
+    },
+
+    "languages": {
+        "en": "languages",
+        "ru": "языки"
+    },
+
+    "technologies": {
+        "en": "technologies",
+        "ru": "технологии"
+    },
+
+    "projects": {
+        "en": "Projects",
+        "ru": "Проекты"
+    },
+
+    "projects-about": {
+        "en": "about",
+        "ru": "о проекте"
+    },
+
+    "projects-links": {
+        "en": "links",
+        "ru": "ссылки"
+    },
+
+    "projects-tasks": {
+        "en": "Tasks:",
+        "ru": "Задачи:"
+    },
+
+    "projects-holi-text": {
+        "en": "Creating a clone of the Holi service page. Working with a mentor.",
+        "ru": "Создание клона страницы сервиса Holi. Работа с ментором."
+    },
+
+    "projects-holi-li-1": {
+        "en": "copy the design of the original page,",
+        "ru": "скопировать дизайн оригинальной страницы,"
+    },
+
+    "projects-holi-li-2": {
+        "en": "repeat the animation of the scene on the main screen, the animation of the state of the elements,",
+        "ru": "повторить анимацию сцены на главном экране, анимации состояния элементов,"
+    },
+    "projects-holi-li-3": {
+        "en": "use Git in your work, maintain a project on GitLab,",
+        "ru": "использовать в работе Git, ведение проекта на GitLab,"
+    },
+
+    "projects-holi-li-4": {
+        "en": "building a project on Webpack,",
+        "ru": "сборка проекта на Webpack,"
+    },
+
+    "projects-holi-li-5": {
+        "en": "install ESlint, include TailWind CSS,",
+        "ru": "установить ESlint, подключить TailWind CSS,"
+    },
+
+    "projects-holi-li-6": {
+        "en": "implement responsiveness.",
+        "ru": "реализовать адаптивность."
+    },
+    "projects-cv-text": {
+        "en": "Creating an Acid Liquid style design in Figma and implementation of responsive layout.",
+        "ru": "Создание дизайна в стиле Acid Liquid в Figma и реализация адаптивного макета."
+    },
+
+    "projects-cv-li-1": {
+        "en": "independently develop a design layout,",
+        "ru": "самостоятельно разработать дизайн-макет,"
+    },
+
+    "projects-cv-li-2": {
+        "en": "mobile adaptive,",
+        "ru": "адаптив под мобильные устройства,"
+    },
+
+    "projects-cv-li-3": {
+        "en": "dark and light themes (browser theme detection, button switching),",
+        "ru": "тёмная и светлая темы (определение темы браузера, переключение по кнопке),"
+    },
+    "projects-cv-li-4": {
+        "en": "implementation using TailWind CSS,",
+        "ru": "реализация с использованием TailWind CSS,"
+    },
+
+    "projects-cv-li-5": {
+        "en": "English and Russian languages of the page.",
+        "ru": "английский и русский языки страницы."
+    },
+
+    "projects-page": {
+        "en": "Page",
+        "ru": "Сайт"
+    },
+
+    "projects-figma-layout": {
+        "en": "Figma layout",
+        "ru": "Макет Figma"
+    },
+    "projects-codewars-text": {
+        "en": "Solving katas on the Codewars.",
+        "ru": "Решение задач на платформе Codewars."
+    },
+
+    "projects-codewars-profile": {
+        "en": "My profile",
+        "ru": "Профиль"
+    },
+
+    "contacts-title": {
+        "en": "Contacts",
+        "ru": "Контакты"
+    },
+
+    "contacts-download": {
+        "en": "download resume // pdf",
+        "ru": "скачать резюме // pdf"
+    }
+}

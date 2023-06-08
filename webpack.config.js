@@ -12,7 +12,7 @@ module.exports = {
   target,
   devtool,
 	devServer: {
-      port: 3000,
+      port: 2023,
       open: true,
       hot: true,
   },
@@ -51,8 +51,15 @@ module.exports = {
         type: 'asset/inline',
       },
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        test: /\.(?:ico|gif|png|jpg|jpeg|pdf')$/i,
         type: 'asset/resource',
+      },
+      {
+        test: /\.pdf$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: `[name][ext]`
+        }
       },
     ],
   },
