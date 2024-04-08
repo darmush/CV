@@ -73,7 +73,7 @@ function changeLanguage(lang) {
             elements.forEach(element => element.innerHTML = dictionary[key][lang])
         }
     }
-    downloadBtn.setAttribute('href', `./files/Podskrebalina_Darya_Frontend_Developer_${lang}.pdf`)
+    downloadBtn.setAttribute('href', `./Podskrebalina_Darya_Frontend_Developer_${lang}.pdf`)
 }
 
 function changeColorTheme() {
@@ -93,15 +93,15 @@ function changeColorSVG(getColor, setColor) {
 
 // Открытие меню при клике по иконке меню
 function toggleBurgerMenu() {
-    if(burgerIcon.classList.contains('burger-icon_close')) {
+    if(burgerIcon.classList.contains('burger-icon_close') || window.matchMedia('(min-width: 870px)').matches) {
         closeBurgerMenu();
     } else {
         openBurgerMenu();
     }
 }
 
-export function closeBurgerMenu() {
-    header.classList.replace('h-screen', 'h-16')
+function closeBurgerMenu() {
+    header.classList.replace('h-full', 'h-16')
     header.classList.add('border-b-[2px]')
     navbarContainer.classList.remove()
     navbar.classList.remove('gap-8')
@@ -117,9 +117,8 @@ export function closeBurgerMenu() {
     burgerIconRects[2].setAttribute('x', '0')
 }
 
-export function openBurgerMenu() {
-    header.classList.replace('h-16', 'h-screen')
-    header.classList.remove('border-b-[2px]')
+function openBurgerMenu() {
+    header.classList.replace('h-16', 'h-full')
     navbarContainer.classList.add()
     navbar.classList.add('gap-8')
     navbar.classList.remove('max-md:hidden')
@@ -145,7 +144,7 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && themeMediaQu
 
 const options = {
     rootMargin: '0px',
-    threshold: [0, 0.5, 1],
+    threshold: [0, 0.2, 1],
 }
 
 const callback = (entries) => {
@@ -154,7 +153,7 @@ const callback = (entries) => {
 
         if (isIntersecting) {
             // Раскрытие раздела в меню, который соответствует просматриваемой секции
-            if (intersectionRatio >= 0.45) {
+            if (intersectionRatio >= 0.15) {
                 switch(targetSection) {
                     case '':
                         break
@@ -168,22 +167,18 @@ const callback = (entries) => {
 }
 
 function setNavbarClass(nameSection) {
-    navbarItems.forEach((item) => {
-        item.classList.remove('active')
-    });
-    // Находим пункт меню по классу с названием секции
-    document.querySelector(`.${nameSection}`).classList.add('flex-1', 'active')
-    navbarItems.forEach((item) => {
-        if (!item.classList.contains('active')) {
-            item.classList.remove('flex-1')
-        }
-    });
-    removeNavbarClass('active')
-}
-function removeNavbarClass(className) {
-    navbarItems.forEach((item) => {
-        item.classList.remove(className)
-    });
+    if (!document.querySelector(`.${nameSection}`).classList.contains('active')){
+        navbarItems.forEach((item) => {
+            item.classList.remove('active')
+        });
+        // Находим пункт меню по классу с названием секции
+        document.querySelector(`.${nameSection}`).classList.add('flex-1', 'active')
+        navbarItems.forEach((item) => {
+            if (!item.classList.contains('active')) {
+                item.classList.remove('flex-1')
+            }
+        });
+    }
 }
 
 const observer = new IntersectionObserver(callback, options)

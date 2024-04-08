@@ -45,8 +45,8 @@
     },
 
     "about-text-1": {
-        "en": "I am a front-end developer from Kazakhstan.",
-        "ru": "Я фронтенд разработчица из Казахстана."
+        "en": "I am a front-end developer from Kazakhstan. I currently live in Georgia.",
+        "ru": "Я фронтенд разработчица из Казахстана. Сейчас живу в Грузии."
     },
 
     "about-text-2": {
@@ -123,6 +123,7 @@
         "en": "Frontend Developer",
         "ru": "Фронтенд разработчица"
     },
+
     "about-des-developer": {
         "en": "In the process of looking for a job. ",
         "ru": "В процессе поиска работы."
@@ -202,6 +203,7 @@
         "en": "repeat the animation of the scene on the main screen, the animation of the state of the elements,",
         "ru": "повторить анимацию сцены на главном экране, анимации состояния элементов,"
     },
+
     "projects-holi-li-3": {
         "en": "use Git in your work, maintain a project on GitLab,",
         "ru": "использовать в работе Git, ведение проекта на GitLab,"
@@ -221,6 +223,7 @@
         "en": "implement responsiveness.",
         "ru": "реализовать адаптивность."
     },
+
     "projects-cv-text": {
         "en": "Creating an Acid Liquid style design in Figma and implementation of responsive layout.",
         "ru": "Создание дизайна в стиле Acid Liquid в Figma и реализация адаптивного макета."
@@ -240,6 +243,7 @@
         "en": "dark and light themes (browser theme detection, button switching),",
         "ru": "тёмная и светлая темы (определение темы браузера, переключение по кнопке),"
     },
+
     "projects-cv-li-4": {
         "en": "implementation using TailWind CSS,",
         "ru": "реализация с использованием TailWind CSS,"
@@ -248,6 +252,76 @@
     "projects-cv-li-5": {
         "en": "English and Russian languages of the page.",
         "ru": "английский и русский языки страницы."
+    },
+
+    "projects-pusk-text": {
+        "en": "Implementing a responsive multi-page layout with Vue.",
+        "ru": "Реализация адаптивного многостраничного макета с помощью Vue."
+    },
+
+    "projects-pusk-li-1": {
+        "en": "implementation using Vue 3,",
+        "ru": "реализация с использованием Vue 3,"
+    },
+
+    "projects-pusk-li-2": {
+        "en": "creating reusable Vue component system,",
+        "ru": "создание системы компонентов Vue,"
+    },
+
+    "projects-pusk-li-3": {
+        "en": "setting up page routing,",
+        "ru": "настройка роутинга страниц,"
+    },
+
+    "projects-pusk-li-4": {
+        "en": "implementation using TailWind CSS,",
+        "ru": "реализация с использованием TailWind CSS,"
+    },
+
+    "projects-pusk-li-5": {
+        "en": "mobile adaptive.",
+        "ru": "адаптив под мобильные устройства."
+    },
+
+    "projects-color-game-text": {
+        "en": "Creating a simple game based on the principle of finding the extra color.",
+        "ru": "Создание простой игры, в основе которой принцип — найти лишний цвет."
+    },
+
+    "projects-color-game-li-1": {
+        "en": "writing technical specifications,",
+        "ru": "написание технического задания,"
+    },
+
+    "projects-color-game-li-2": {
+        "en": "generation of playing field elements with random fill color,",
+        "ru": "генерация элементов игрового поля со случайным цветом заливки,"
+    },
+
+    "projects-color-game-li-3": {
+        "en": "creating a countdown timer with the ability to pause it,",
+        "ru": "создание таймера обратного отсчёта с возможностью поставить его на паузу,"
+    },
+
+    "projects-color-game-li-4": {
+        "en": "limiting the number of unsuccessful attempts to select the correct element,",
+        "ru": "ограничение количества неудачных попыток выбора правильного элемента,"
+    },
+
+    "projects-color-game-li-5": {
+        "en": "implement an increase in game difficulty,",
+        "ru": "реализовать рост сложности игры,"
+    },
+
+    "projects-color-game-li-6": {
+        "en": "saving and displaying achievements,",
+        "ru": "фиксирование и отображение рекордов,"
+    },
+
+    "projects-color-game-li-7": {
+        "en": "dark and light themes.",
+        "ru": "тёмная и светлая темы."
     },
 
     "projects-page": {
@@ -259,6 +333,12 @@
         "en": "Figma layout",
         "ru": "Макет Figma"
     },
+
+    "projects-technical-assignment": {
+        "en": "Technical Assignment",
+        "ru": "Техническое задание"
+    },
+
     "projects-codewars-text": {
         "en": "Solving katas on the Codewars.",
         "ru": "Решение задач на платформе Codewars."

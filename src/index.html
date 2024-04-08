@@ -1,119 +1,205 @@
 <!DOCTYPE html>
-<html lang="ru" class="overflow-x-hidden dark">
+<html lang="ru"
+      class="overflow-x-hidden dark">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title data-translate="document-title">Darya Podskrebalina · Frontend Developer</title>
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="icon"
+          type="image/x-icon"
+          href="./favicon.ico">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Montserrat:wght@400;500;800&display=swap"
+          rel="stylesheet">
 </head>
-<body class="bg-light-bg dark:bg-black text-black dark:text-white text-xs sm:text-sm md:text-base font-serif font-normal mx-auto px-6 sm:px-10 max-w-[1200px]">
-    <div class="app-container opacity-0" style="display: none;">
-        <header class="header md:h-24 h-16 w-full fixed z-10 left-0 border-b-[2px] border-black dark:border-white bg-light-bg-opacity dark:bg-black-opacity backdrop-blur-sm">
-            <div class="navbar-container h-full px-10 max-md:py-6 mx-auto max-w-[1200px] flex justify-between items-center max-md:flex-wrap">
-                <nav class="navbar md:h-full md:w-full max-md:mb-auto flex justify-between md:items-center max-md:hidden max-md:flex-col max-md:flex-auto">
-                    <a href="#about" data-translate="nav-about" class="about navbar-item flex md:h-full max-md:w-max items-center md:border-r-2 border-black dark:border-white sm:pr-8 md:pr-14 relative hover:transition-all hover:duration-500 after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 md:after:w-0 max-md:px-8 hover:after:w-full md:hover:after:w-[50vw] after:right-0 after:h-full after:bg-accent dark:hover:text-black after:transition-all after:duration-500 transition-all duration-300 whitespace-nowrap">about</a>
-                    <a href="#projects" data-translate="nav-projects" class="projects navbar-item flex md:h-full max-md:w-max items-center text-right border-black dark:border-white sm:px-8 md:px-14 relative hover:transition-all hover:duration-300 after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 md:after:w-0 max-md:px-2 hover:after:w-full after:left-0 after:h-full after:bg-accent dark:hover:text-black after:transition-all after:duration-300 transition-all duration-300">projects</a>
-                    <a href="#contacts" data-translate="nav-contacts" class="contacts navbar-item flex md:h-full max-md:w-max items-center text-right md:border-l-2 border-black dark:border-white sm:px-8 md:px-14 relative hover:transition-all hover:duration-300 after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 md:after:w-0 max-md:px-2 hover:after:w-full after:right-0 after:h-full after:bg-accent dark:hover:text-black after:transition-all after:duration-300 transition-all duration-300">contacts</a>
+
+<body
+      class="bg-light-bg dark:bg-black text-black dark:text-white text-xs sm:text-sm md:text-base font-serif font-normal ">
+    <div class="background-style fixed z-[100] w-full h-full left-[50%] top-[50%] -translate-y-2/4 -translate-x-2/4 pointer-events-none bg-noise-texture bg-repeat opacity-10 contrast-50"></div>
+    <div class="app-container opacity-0 max-w-[1200px] mx-auto px-6 sm:px-10"
+         style="display: none;">
+        <header
+                class="header md:h-24 h-16 w-full fixed z-10 left-0 border-b-[2px] border-black dark:border-white bg-light-bg-opacity dark:bg-black-opacity backdrop-blur-sm">
+            <div
+                 class="navbar-container h-full px-10 max-md:py-6 mx-auto max-w-[1200px] flex justify-between items-center flex-nowrap max-md:flex-wrap">
+                <nav
+                     class="navbar md:h-full md:w-full max-md:mb-auto flex justify-between md:items-center max-md:hidden max-md:flex-col max-md:flex-auto">
+                    <a href="#about"
+                       data-translate="nav-about"
+                       class="about navbar-item flex md:h-full max-md:w-max items-center md:border-r-2 border-black dark:border-white sm:px-8 md:pr-14 relative hover:transition-all hover:duration-500 after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 md:after:w-0 max-md:px-2 hover:after:w-full md:hover:after:w-[50vw] after:right-0 after:h-full after:bg-accent dark:hover:text-black after:transition-all after:duration-500 transition-all duration-300 whitespace-nowrap">about</a>
+                    <a href="#projects"
+                       data-translate="nav-projects"
+                       class="projects navbar-item flex md:h-full max-md:w-max items-center text-right border-black dark:border-white sm:px-8 md:px-14 relative hover:transition-all hover:duration-300 after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 md:after:w-0 max-md:px-2 hover:after:w-full after:left-0 after:h-full after:bg-accent dark:hover:text-black after:transition-all after:duration-300 transition-all duration-300">projects</a>
+                    <a href="#contacts"
+                       data-translate="nav-contacts"
+                       class="contacts navbar-item flex md:h-full max-md:w-max items-center text-right md:border-l-2 border-black dark:border-white sm:px-8 md:px-14 relative hover:transition-all hover:duration-300 after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 md:after:w-0 max-md:px-2 hover:after:w-full after:right-0 after:h-full after:bg-accent dark:hover:text-black after:transition-all after:duration-300 transition-all duration-300">contacts</a>
                 </nav>
-                <div class="control-panel md:h-full max-md:mt-auto flex md:gap-5 items-center md:border-l-[2px] sm:pl-6 md:pl-9">
+                <div
+                     class="control-panel md:h-full max-md:mt-auto flex md:gap-5 items-center md:border-l-[2px] sm:pl-6 md:pl-9">
                     <div class="flex gap-5">
-                        <p data-language="en" data-translate="nav-en" class="language-btn language-btn-en px-2 cursor-pointer hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-colors bg-accent text-black language-btn-active">en</p>
-                        <p data-language="ru" data-translate="nav-ru" class="language-btn language-btn-ru px-2 cursor-pointer hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-colors">ru</p>
+                        <p data-language="en"
+                           data-translate="nav-en"
+                           class="language-btn language-btn-en px-2 cursor-pointer hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-colors bg-accent text-black language-btn-active">
+                            en</p>
+                        <p data-language="ru"
+                           data-translate="nav-ru"
+                           class="language-btn language-btn-ru px-2 cursor-pointer hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-colors">
+                            ru</p>
                     </div>
-                    <div class="theme-btn flex items-center cursor-pointer max-md:hidden h-6 px-2 bg-accent hover:bg-light-bg dark:hover:bg-white transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.96 297.96" class="theme-btn-element w-5">
-                            <path d="M298,158.37V139.59H252.42a103.32,103.32,0,0,0-23.66-57.08L261,50.3,247.68,37,215.47,69.23a103.31,103.31,0,0,0-57.08-23.62V0H139.61V45.61A103.28,103.28,0,0,0,82.53,69.23L50.3,37,37,50.28,69.25,82.51a103.33,103.33,0,0,0-23.67,57.08H0v18.78H45.57a103.32,103.32,0,0,0,23.65,57.12L37,247.71,50.28,261l32.21-32.21a103.27,103.27,0,0,0,57.12,23.66V298h18.78V252.44a103.27,103.27,0,0,0,57.13-23.67L247.71,261,261,247.68,228.8,215.49a103.3,103.3,0,0,0,23.63-57.12ZM139.4,233.49a85.06,85.06,0,0,1,0-169Z" class="theme-btn-element-1"/>
-                            <path d="M139.4,64.47v169a85.06,85.06,0,0,1,0-169Z" fill="#FBE205" class="theme-btn-element-2"/>
+                    <div
+                         class="theme-btn flex items-center cursor-pointer max-md:hidden h-6 px-2 bg-accent hover:bg-light-bg dark:hover:bg-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 297.96 297.96"
+                             class="theme-btn-element w-5">
+                            <path d="M298,158.37V139.59H252.42a103.32,103.32,0,0,0-23.66-57.08L261,50.3,247.68,37,215.47,69.23a103.31,103.31,0,0,0-57.08-23.62V0H139.61V45.61A103.28,103.28,0,0,0,82.53,69.23L50.3,37,37,50.28,69.25,82.51a103.33,103.33,0,0,0-23.67,57.08H0v18.78H45.57a103.32,103.32,0,0,0,23.65,57.12L37,247.71,50.28,261l32.21-32.21a103.27,103.27,0,0,0,57.12,23.66V298h18.78V252.44a103.27,103.27,0,0,0,57.13-23.67L247.71,261,261,247.68,228.8,215.49a103.3,103.3,0,0,0,23.63-57.12ZM139.4,233.49a85.06,85.06,0,0,1,0-169Z"
+                                  class="theme-btn-element-1" />
+                            <path d="M139.4,64.47v169a85.06,85.06,0,0,1,0-169Z"
+                                  fill="#FBE205"
+                                  class="theme-btn-element-2" />
                         </svg>
                     </div>
                 </div>
-                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="burger-icon block md:hidden cursor-pointer fill-black dark:fill-white dark:hover:fill-accent active:fill-accent transition-colors">
-                    <rect width="20" height="2" class="burger-icon-rect relative transition-all duration-200"/>
-                    <rect y="6" width="20" height="2" class="burger-icon-rect relative transition-all duration-200"/>
-                    <rect y="12" width="20" height="2" class="burger-icon-rect relative transition-all duration-200"/>
+                <svg width="20"
+                     height="16"
+                     viewBox="0 0 20 16"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="burger-icon block md:hidden cursor-pointer fill-black dark:fill-white dark:hover:fill-accent dark:active:fill-accent transition-colors">
+                    <rect width="20"
+                          height="2"
+                          class="burger-icon-rect relative transition-all duration-200" />
+                    <rect y="6"
+                          width="20"
+                          height="2"
+                          class="burger-icon-rect relative transition-all duration-200" />
+                    <rect y="12"
+                          width="20"
+                          height="2"
+                          class="burger-icon-rect relative transition-all duration-200" />
                 </svg>
             </div>
         </header>
-        <section id="about" data-section="about" class="min-h-screen max-md:justify-center flex items-center mx-auto max-w-[952px] mb-32 sm:mb-[30vh] pt-28">
+        <section id="about"
+                 data-section="about"
+                 class="max-md:justify-center flex items-center mx-auto max-w-[952px] mb-20 sm:mb-32 pt-32">
             <div class="flex flex-col relative w-max md:w-full">
-                <h1 class="text-lg sm:text-xl md:text-[70px] md:leading-[79px] min-[1000px]:text-2xl uppercase font-extrabold tracking-wide font-sans mb-2">
-                    <span data-translate="title-name">Darya</span>
-                    <br>
-                    <span data-translate="title-last-name">Podskrebalina</span>
-                </h1>
-                <h2 data-translate="subtitle" class="text-md sm:text-lg md:text-xl tracking-wider font-sans mb-12 md:mb-20">Frontend Developer</h2>
-                <div class="max-md:mb-12 max-w-[362px] text-justify relative">
+                <div>
+                    <h1
+                        class="text-lg max-sm:text-[28px] max-sm:leading-[32px] max-md:text-xl md:text-[70px] md:leading-[79px] min-[1000px]:text-2xl uppercase font-extrabold tracking-wide font-sans mb-2">
+                        <span data-translate="title-name">Darya</span>
+                        <br>
+                        <span data-translate="title-last-name">Podskrebalina</span>
+                    </h1>
+                    <h2 data-translate="subtitle"
+                        class="text-md sm:text-lg md:text-xl tracking-wider font-sans mb-12 md:mb-20">Frontend Developer
+                    </h2>
+                </div>
+                <div class="max-md:mb-12 max-w-[362px] self-start text-justify relative">
                     <p data-translate="about-text-1">
-                        I am a front-end developer from Kazakhstan.
+                        I am a front-end developer from Kazakhstan. I currently live in Georgia.
                     </p>
                     <br>
                     <p data-translate="about-text-2">
-                        I love when the complex becomes simple with the help of visualization. I love cool interactive design and animation.
+                        I love when the complex becomes simple with the help of visualization. I love cool interactive
+                        design and animation.
                     </p>
                     <br>
                     <p data-translate="about-text-3">
-                        I consider accessibility and good user experience important. I strive to create services that can be used by as many people as possible.
+                        I consider accessibility and good user experience important. I strive to create services that
+                        can be used by as many people as possible.
                     </p>
                 </div>
-                <div class="w-max relative md:absolute -z-10 right-[0%] md:max-lg:right-[-5%] bottom-0">
-                    <img width="412" height="412" srcset="./img/profile-photo.png, ./img/profile-photo-x2.png 2x" src="./img/profile-photo-x2.png" alt="Profile photo" class="">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.79 200.89" class="absolute z-10 w-48 sm:w-[332px] top-[-25%] right-[-30%] sm:right-[-45%]">
-                        <polygon points="99.89 0 101.12 88.75 120.78 2.19 103.53 89.26 140.75 8.68 105.77 90.26 158.93 19.18 107.76 91.7 174.54 33.23 109.41 93.53 186.88 50.22 110.64 95.66 195.42 69.41 111.4 98 199.79 89.94 111.65 100.44 199.79 110.94 111.4 102.89 195.42 131.48 110.64 105.23 186.88 150.66 109.41 107.36 174.54 167.65 107.76 109.18 158.93 181.7 105.77 110.63 140.75 192.2 103.53 111.63 120.78 198.69 101.12 112.14 99.89 200.89 98.66 112.14 79.01 198.69 96.26 111.63 59.04 192.2 94.01 110.63 40.85 181.7 92.02 109.18 25.25 167.65 90.38 107.36 12.91 150.66 89.15 105.23 4.37 131.48 88.39 102.89 0 110.94 88.13 100.44 0 89.94 88.39 98 4.37 69.41 89.15 95.66 12.91 50.22 90.38 93.53 25.25 33.23 92.02 91.7 40.85 19.18 94.01 90.26 59.04 8.68 96.26 89.26 79.01 2.19 98.66 88.75 99.89 0" fill="#FBE205"/>
+                <div class="relative md:absolute -z-10 right-[0%] bottom-0">
+                    <img width="400"
+                         height="400"
+                         srcset="./img/profile-photo.png, ./img/profile-photo-x2.png 2x"
+                         src="./img/profile-photo-x2.png"
+                         alt="Profile photo"
+                         class="">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 199.79 200.89"
+                         class="absolute z-10 w-48 sm:w-[332px] top-[-25%] right-[-30%] sm:right-[-45%]">
+                        <polygon points="99.89 0 101.12 88.75 120.78 2.19 103.53 89.26 140.75 8.68 105.77 90.26 158.93 19.18 107.76 91.7 174.54 33.23 109.41 93.53 186.88 50.22 110.64 95.66 195.42 69.41 111.4 98 199.79 89.94 111.65 100.44 199.79 110.94 111.4 102.89 195.42 131.48 110.64 105.23 186.88 150.66 109.41 107.36 174.54 167.65 107.76 109.18 158.93 181.7 105.77 110.63 140.75 192.2 103.53 111.63 120.78 198.69 101.12 112.14 99.89 200.89 98.66 112.14 79.01 198.69 96.26 111.63 59.04 192.2 94.01 110.63 40.85 181.7 92.02 109.18 25.25 167.65 90.38 107.36 12.91 150.66 89.15 105.23 4.37 131.48 88.39 102.89 0 110.94 88.13 100.44 0 89.94 88.39 98 4.37 69.41 89.15 95.66 12.91 50.22 90.38 93.53 25.25 33.23 92.02 91.7 40.85 19.18 94.01 90.26 59.04 8.68 96.26 89.26 79.01 2.19 98.66 88.75 99.89 0"
+                                 fill="#FBE205" />
                     </svg>
                 </div>
-                <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute -left-32 top-80">
-                    <path d="M37.8559 27.3763L37.9916 28.0084L38.6237 28.1441L61.237 33L38.6237 37.8559L37.9916 37.9916L37.8559 38.6237L33 61.237L28.1441 38.6237L28.0084 37.9916L27.3763 37.8559L4.76301 33L27.3763 28.1441L28.0084 28.0084L28.1441 27.3763L33 4.76301L37.8559 27.3763Z" stroke="#181818" stroke-width="2"/>
+                <svg width="66"
+                     height="66"
+                     viewBox="0 0 66 66"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="absolute -left-32 top-80">
+                    <path d="M37.8559 27.3763L37.9916 28.0084L38.6237 28.1441L61.237 33L38.6237 37.8559L37.9916 37.9916L37.8559 38.6237L33 61.237L28.1441 38.6237L28.0084 37.9916L27.3763 37.8559L4.76301 33L27.3763 28.1441L28.0084 28.0084L28.1441 27.3763L33 4.76301L37.8559 27.3763Z"
+                          stroke="#181818"
+                          stroke-width="2" />
                 </svg>
-                <svg width="190" height="190" viewBox="0 0 83.17 83.17" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute -left-72 top-28">
-                    <path d="M48,17.67l-3.6,17.16-.63,3,2.28-2,13-11.71L47.38,37.13l-2,2.28,3-.63,17.15-3.62L48.83,40.63l-2.9.95,2.9,1L65.49,48l-17.15-3.6-3-.63,2,2.28,11.7,13L46,47.38l-2.27-2,.63,3L48,65.48,42.54,48.83l-1-2.9-.94,2.9L35.19,65.49l3.6-17.15.62-3-2.27,2-13,11.7L35.78,46l2-2.27-3,.63L17.68,48l16.66-5.46,2.9-1-2.91-.94L17.68,35.19l17.15,3.6,3,.62-2-2.27-11.71-13L37.13,35.78l2.28,2-.63-3L35.16,17.68l5.47,16.66.95,2.9,1-2.91L48,17.67M52.7,0,41.58,34,30.42,0,37.8,35,11.13,11.16,35,37.81,0,30.46,34,41.59,0,52.75l35-7.38L11.16,72,37.81,48.13l-7.35,35,11.13-34,11.16,34-7.38-35L72,72,48.13,45.36l35,7.34-34-11.12,34-11.16-35,7.38L72,11.13,45.36,35,52.7,0Z" fill="#FBE205"/>
+                <svg width="190"
+                     height="190"
+                     viewBox="0 0 83.17 83.17"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="absolute -left-72 top-28">
+                    <path d="M48,17.67l-3.6,17.16-.63,3,2.28-2,13-11.71L47.38,37.13l-2,2.28,3-.63,17.15-3.62L48.83,40.63l-2.9.95,2.9,1L65.49,48l-17.15-3.6-3-.63,2,2.28,11.7,13L46,47.38l-2.27-2,.63,3L48,65.48,42.54,48.83l-1-2.9-.94,2.9L35.19,65.49l3.6-17.15.62-3-2.27,2-13,11.7L35.78,46l2-2.27-3,.63L17.68,48l16.66-5.46,2.9-1-2.91-.94L17.68,35.19l17.15,3.6,3,.62-2-2.27-11.71-13L37.13,35.78l2.28,2-.63-3L35.16,17.68l5.47,16.66.95,2.9,1-2.91L48,17.67M52.7,0,41.58,34,30.42,0,37.8,35,11.13,11.16,35,37.81,0,30.46,34,41.59,0,52.75l35-7.38L11.16,72,37.81,48.13l-7.35,35,11.13-34,11.16,34-7.38-35L72,72,48.13,45.36l35,7.34-34-11.12,34-11.16-35,7.38L72,11.13,45.36,35,52.7,0Z"
+                          fill="#FBE205" />
                 </svg>
             </div>
         </section>
-        <section data-section="about" class="flex flex-col items-center mx-auto max-w-[952px] mb-[30vh]">
-            <h2 data-translate="about-title-education" class="text-md sm:text-xl tracking-wider font-sans text-center mb-8 sm:mb-14">Education & Experience</h2>
-            <div class="w-full flex text-gray text-xs justify-between mb-16 sm:mb-28 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-top-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                <p data-translate="position" class="w-[37%]">position</p>
-                <p data-translate="description" class="w-[50%]">description</p>
-                <p data-translate="year" class="w-[13%] text-right">year</p>
+        <section data-section="about"
+                 class="flex flex-col items-center mx-auto max-w-[952px] mb-32 sm:mb-64">
+            <h2 data-translate="about-title-education"
+                class="text-md sm:text-xl tracking-wider font-sans text-center mb-8 sm:mb-14">Education & Experience
+            </h2>
+            <div
+                 class="w-full flex text-gray text-xs justify-between mb-16 sm:mb-28 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-top-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                <p data-translate="position"
+                   class="w-[37%]">position</p>
+                <p data-translate="description"
+                   class="w-[50%]">description</p>
+                <p data-translate="year"
+                   class="w-[13%] text-right">year</p>
             </div>
             <div class="flex flex-col w-full gap-5 sm:gap-10 mb-16 sm:mb-28">
-                <div class="flex max-md:flex-col justify-between relative after:block after:absolute after:left-[50%] after:-translate-x-[50%] max-md:after:bottom-5 md:after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                    <p data-translate="about-pos-illustrator" class="max-md:mb-3 md:w-[37%] font-bold tracking-wide whitespace">Illustrator & Motion Designer</p>
-                    <p class="md:min-w-[117px] md:w-[13%] max-md:text-end font-bold tracking-widest text-right">2018 - 20</p>
+                <div
+                     class="flex max-md:flex-col justify-between relative after:block after:absolute after:left-[50%] after:-translate-x-[50%] max-md:after:bottom-5 md:after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                    <p data-translate="about-pos-developer"
+                       class="max-md:mb-3 md:w-[37%] font-bold tracking-wide">
+                        Frontend Developer</p>
+                    <p class="md:min-w-[117px] md:w-[13%] max-md:text-end font-bold tracking-widest text-right">2023</p>
                 </div>
                 <div class="sm:max-md:w-[70%] md:w-[50%] sm:max-md:self-center relative md:left-[37%] text-justify mb-8">
-                    <p data-translate="about-des-illustrator">
-                        Created illustrations and animation for websites and apps, use of guidelines and brand books. Worked with digital agencies, designers and art directors.
+                    <p data-translate="about-des-developer">
+                        In the process of looking for a job.
                     </p>
                     <br>
-                    <p data-translate="about-des-illustrator-place">
-                        // Freelance, BeaverBrothers, PixelPoint.
+                    <p
+                       class="relative inline-block dark:text-black after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 after:w-full after:h-full after:bg-accent hover:after:bg-black hover:text-white hover:decoration-black dark:hover:after:bg-white">
+                        // <a href="#projects"
+                           data-translate="about-des-developer-link"
+                           class="underline underline-offset-[10px] dark:hover:decoration-white dark:decoration-accent cursor-pointer">Look
+                            my projects.</a>
                     </p>
                 </div>
-                <div class="flex max-md:flex-col justify-between relative after:block after:absolute after:left-[50%] after:-translate-x-[50%] max-md:after:bottom-5 md:after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                    <p data-translate="about-pos-self" class="max-md:mb-3 md:w-[37%] font-bold tracking-wide">Self-Employed Ceramic</p>
-                    <p class="md:min-w-[117px] md:w-[13%] max-md:text-end font-bold tracking-widest text-right">2020 - 21</p>
+                <div
+                     class="flex max-md:flex-col justify-between relative after:block after:absolute after:left-[50%] after:-translate-x-[50%] max-md:after:bottom-5 md:after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                    <p data-translate="about-pos-student"
+                       class="max-md:mb-3 md:w-[37%] font-bold tracking-wide">
+                        Frontend Developer Student</p>
+                    <p class="md:min-w-[117px] md:w-[13%] max-md:text-end font-bold tracking-widest text-right">2022 -
+                        23</p>
                 </div>
-                <div class="sm:max-md:w-[70%] md:w-[50%] sm:max-md:self-center relative md:left-[37%] text-justify mb-8 ">
-                    <p data-translate="about-des-self">
-                        Work on the ceramic brand Gribooli. Creation and sale of clay products, participation in markets, maintaining social networks.
-                    </p>
-                    <br>
-                    <p data-translate="about-des-self-place">
-                        // Ceramic Studio
-                    </p>
-                </div>
-                <div class="flex max-md:flex-col justify-between relative after:block after:absolute after:left-[50%] after:-translate-x-[50%] max-md:after:bottom-5 md:after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                    <p data-translate="about-pos-student" class="max-md:mb-3 md:w-[37%] font-bold tracking-wide">Frontend Developer Student</p>
-                    <p class="md:min-w-[117px] md:w-[13%] max-md:text-end font-bold tracking-widest text-right">2022 - 23</p>
-                </div>
-                <div class="sm:max-md:w-[70%] md:w-[50%] sm:max-md:self-center relative md:left-[37%] text-justify mb-8">
+                <div
+                     class="sm:max-md:w-[70%] md:w-[50%] sm:max-md:self-center relative md:left-[37%] text-justify mb-8">
                     <p data-translate="about-des-student">
-                        Studying at the JS Course RS School. Self-learning based on open access materials. Work on pet projects under the guidance of a mentor.
+                        Studying at the JS Course RS School. Self-learning based on open access materials. Work on pet
+                        projects under the guidance of a mentor.
                     </p>
                     <br>
                     <ul>
@@ -123,65 +209,121 @@
                         <li>// webref.ru</li>
                     </ul>
                 </div>
-                <div class="flex max-md:flex-col justify-between relative after:block after:absolute after:left-[50%] after:-translate-x-[50%] max-md:after:bottom-5 md:after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                    <p data-translate="about-pos-developer" class="max-md:mb-3 md:w-[37%] font-bold tracking-wide">Frontend Developer</p>
-                    <p class="md:min-w-[117px] md:w-[13%] max-md:text-end font-bold tracking-widest text-right">2023</p>
+                <div
+                     class="flex max-md:flex-col justify-between relative after:block after:absolute after:left-[50%] after:-translate-x-[50%] max-md:after:bottom-5 md:after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                    <p data-translate="about-pos-self"
+                       class="max-md:mb-3 md:w-[37%] font-bold tracking-wide">
+                        Self-Employed Ceramic</p>
+                    <p class="md:min-w-[117px] md:w-[13%] max-md:text-end font-bold tracking-widest text-right">2020 -
+                        21</p>
                 </div>
-                <div class="sm:max-md:w-[70%] md:w-[50%] sm:max-md:self-center relative md:left-[37%] text-justify">
-                    <p data-translate="about-des-developer">
-                        In the process of looking for a job.
+                <div
+                     class="sm:max-md:w-[70%] md:w-[50%] sm:max-md:self-center relative md:left-[37%] text-justify mb-8 ">
+                    <p data-translate="about-des-self">
+                        Work on the ceramic brand Gribooli. Creation and sale of clay products, participation in
+                        markets, maintaining social networks.
                     </p>
                     <br>
-                    <p class="relative inline-block dark:text-black after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 after:w-full after:h-full after:bg-accent hover:after:bg-black hover:text-white hover:decoration-black dark:hover:after:bg-white">
-                        // <a href="#projects" data-translate="about-des-developer-link" class="underline underline-offset-[10px] dark:hover:decoration-white dark:decoration-accent cursor-pointer">Look my projects.</a>
+                    <p data-translate="about-des-self-place">
+                        // Ceramic Studio
+                    </p>
+                </div>
+                <div
+                     class="flex max-md:flex-col justify-between relative after:block after:absolute after:left-[50%] after:-translate-x-[50%] max-md:after:bottom-5 md:after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                    <p data-translate="about-pos-illustrator"
+                       class="max-md:mb-3 md:w-[37%] font-bold tracking-wide whitespace">Illustrator & Motion Designer
+                    </p>
+                    <p class="md:min-w-[117px] md:w-[13%] max-md:text-end font-bold tracking-widest text-right">2018 -
+                        20</p>
+                </div>
+                <div
+                     class="sm:max-md:w-[70%] md:w-[50%] sm:max-md:self-center relative md:left-[37%] text-justify">
+                    <p data-translate="about-des-illustrator">
+                        Created illustrations and animation for websites and apps, use of guidelines and brand books.
+                        Worked with digital agencies, designers and art directors.
+                    </p>
+                    <br>
+                    <p data-translate="about-des-illustrator-place">
+                        // Freelance, BeaverBrothers, PixelPoint.
                     </p>
                 </div>
             </div>
-            <div class="w-full flex text-gray text-xs justify-between relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                <p data-translate="position" class="w-[37%]">position</p>
-                <p data-translate="description" class="w-[50%]">description</p>
-                <p data-translate="year" class="w-[13%] text-right">year</p>
+            <div
+                 class="w-full flex text-gray text-xs justify-between relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                <p data-translate="position"
+                   class="w-[37%]">position</p>
+                <p data-translate="description"
+                   class="w-[50%]">description</p>
+                <p data-translate="year"
+                   class="w-[13%] text-right">year</p>
             </div>
         </section>
-        <section data-section="about" class="flex flex-col items-center mx-auto max-w-[706px] mb-[30vh]">
-            <h2 data-translate="about-title-languages" class="text-md sm:text-xl tracking-wider font-sans text-center mb-8 sm:mb-14">Languages & Technologies</h2>
-            <div class="w-full flex text-gray text-xs justify-between mb-16 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-top-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+        <section data-section="about"
+                 class="flex flex-col items-center mx-auto max-w-[706px] mb-8 sm:mb-32">
+            <h2 data-translate="about-title-languages"
+                class="text-md sm:text-xl tracking-wider font-sans text-center mb-8 sm:mb-14">Languages & Technologies
+            </h2>
+            <div
+                 class="w-full flex text-gray text-xs justify-between mb-16 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-top-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
                 <p data-translate="programming-languages">programming languages</p>
                 <p data-translate="tools">tools</p>
             </div>
-            <div class="w-full mb-12 sm:mb-20 flex flex-wrap justify-center gap-3 sm:gap-4 uppercase text-center tracking-[2px] sm:tracking-[4px] text-xs sm:text-sm md:text-base font-sans">
+            <div
+                 class="w-full mb-12 sm:mb-20 flex flex-wrap justify-center gap-3 sm:gap-4 uppercase text-center tracking-[2px] sm:tracking-[4px] text-xs sm:text-sm md:text-base font-sans">
                 <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">html</p>
-                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">javascript</p>
-                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">webpack</p>
-                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">css / sass</p>
+                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">javascript
+                </p>
+                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">webpack
+                </p>
+                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">css / sass
+                </p>
                 <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">git</p>
-                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">github / gitlab</p>
-                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">tailwind css</p>
-                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">illustrator</p>
+                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">github /
+                    gitlab</p>
+                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">tailwind
+                    css</p>
+                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">
+                    illustrator</p>
                 <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">vue js</p>
-                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">photoshop</p>
+                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">photoshop
+                </p>
                 <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">figma</p>
-                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">after effects</p>
+                <p class="w-auto flex-grow border-2 py-2 sm:py-4 px-3 sm:px-7 border-black dark:border-white">after
+                    effects</p>
             </div>
-            <div class="w-full mb-16 flex flex-wrap gap-3 sm:gap-4 uppercase text-center tracking-[2px] sm:tracking-[4px] text-xs sm:text-sm md:text-base font-sans">
-                <p data-translate="russian" class="w-auto flex-grow border-2 py-2 sm:py-4 px-2 border-black dark:border-white">russian // native</p>
-                <p data-translate="english" class="w-auto flex-grow border-2 py-2 sm:py-4 px-2 border-black dark:border-white">english // a2</p>
+            <div
+                 class="w-full mb-16 flex flex-wrap gap-3 sm:gap-4 uppercase text-center tracking-[2px] sm:tracking-[4px] text-xs sm:text-sm md:text-base font-sans">
+                <p data-translate="russian"
+                   class="w-auto flex-grow border-2 py-2 sm:py-4 px-2 border-black dark:border-white">russian // native
+                </p>
+                <p data-translate="english"
+                   class="w-auto flex-grow border-2 py-2 sm:py-4 px-2 border-black dark:border-white">english // a2</p>
             </div>
-            <div class="w-full flex text-gray text-xs justify-between relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+            <div
+                 class="w-full flex text-gray text-xs justify-between relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
                 <p data-translate="languages">languages</p>
                 <p data-translate="technologies">technologies</p>
             </div>
         </section>
-        <section id="projects" data-section="projects" class="flex flex-col items-center mx-auto max-w-[1200px] mb-[30vh]">
-            <h2 data-translate="projects" class="text-md sm:text-xl tracking-wider font-sans text-center mb-8 sm:mb-14 normal-case">Projects</h2>
-            <div class="w-full flex text-gray text-xs justify-between mb-16 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-top-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                <p data-translate="technologies" class="max-lg:order-2">technologies</p>
-                <p data-translate="projects-about" class="max-lg:order-1">about</p>
-                <p data-translate="projects-links" class="max-lg:order-3">links</p>
+        <section id="projects"
+                 data-section="projects"
+                 class="flex flex-col items-center mx-auto max-w-[1200px] mb-8 sm:mb-32 pt-24 sm:pt-32">
+            <h2 data-translate="projects"
+                class="text-md sm:text-xl tracking-wider font-sans text-center mb-8 sm:mb-14 normal-case">Projects</h2>
+            <div
+                 class="w-full flex text-gray text-xs justify-between mb-16 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-top-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                <p data-translate="technologies"
+                   class="max-lg:order-2">technologies</p>
+                <p data-translate="projects-about"
+                   class="max-lg:order-1">about</p>
+                <p data-translate="projects-links"
+                   class="max-lg:order-3">links</p>
             </div>
-            <div class="flex sm:max-lg:flex-wrap max-sm:flex-col min-w-min w-full border-[1px] border-black mb-[-2px]">
-                <div class="sm:min-w-[212px] sm:max-md:w-[50%] border-[1px] border-black dark:border-white pt-6 sm:pt-10 md:pt-[109px] pb-6 sm:pb-10 sm:max-md:px-7 max-lg:order-2">
-                    <ul class="flex flex-col flex-wrap xs:max-sm:max-h-12 list-disc list-inside px-5 whitespace-nowrap">
+            <div class="flex sm:max-lg:flex-wrap max-sm:flex-col min-w-min w-full border-[1px] border-black dark:border-white mb-[-2px]">
+                <div
+                     class="sm:min-w-[212px] sm:max-md:w-[50%] border-[1px] border-black dark:border-white pt-6 sm:pt-10 md:pt-[109px] pb-6 sm:pb-10 sm:max-md:px-7 max-lg:order-2 max-xs:pl-3">
+                    <ul
+                        class="flex flex-col flex-wrap xs:max-sm:max-h-12 list-disc list-inside px-5 whitespace-nowrap max-sm:grid max-sm:grid-cols-2 max-xs:grid-cols-1">
                         <li>html</li>
                         <li class="max-sm:order-5">tailwind css</li>
                         <li class="max-sm:order-4">javascript</li>
@@ -190,35 +332,50 @@
                         <li class="max-sm:order-3">yarn</li>
                     </ul>
                 </div>
-                <div class="sm:w-[55%] sm:max-lg:flex-1 sm:min-w-[460px] lg:max-w-[630px] border-[1px] border-black dark:border-white pt-10 sm:pt-12 pb-10 sm:pb-16 px-7 sm:px-11">
+                <div
+                     class="sm:w-[55%] sm:max-lg:flex-1 sm:min-w-[460px] lg:max-w-[630px] border-[1px] border-black dark:border-white pt-10 sm:pt-12 pb-10 sm:pb-16 px-7 sm:px-11">
                     <p class="font-sans font-extrabold text-lg sm:text-xl whitespace-nowrap mb-3">Holi Clone</p>
-                    <p data-translate="projects-holi-text">Creating a clone of the Holi service page. Working with a mentor.</p>
+                    <p data-translate="projects-holi-text">Creating a clone of the Holi service page. Working with a
+                        mentor.</p>
                     <br>
                     <div>
                         <p>Tasks:</p>
                         <ul class="list-disc pl-5">
                             <li data-translate="projects-holi-li-1">copy the design of the original page,</li>
-                            <li data-translate="projects-holi-li-2">repeat the animation of the scene on the main screen, the animation of the state of the elements,</li>
-                            <li data-translate="projects-holi-li-3">use Git in your work, maintain a project on GitLab,</li>
+                            <li data-translate="projects-holi-li-2">repeat the animation of the scene on the main
+                                screen, the animation of the state of the elements,</li>
+                            <li data-translate="projects-holi-li-3">use Git in your work, maintain a project on GitLab,
+                            </li>
                             <li data-translate="projects-holi-li-4">building a project on Webpack,</li>
                             <li data-translate="projects-holi-li-5">install ESlint, include TailWind CSS,</li>
                             <li data-translate="projects-holi-li-6">implement responsiveness.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="max-sm:min-h-24 sm:max-md:flex-1 md:w-full sm:min-w-[188px] lg:max-w-[336px] border-[1px] border-black dark:border-white pt-6 sm:pt-10 lg:pt-[109px] pb-10 sm:pb-16 px-7 sm:px-11 relative max-lg:order-3">
-                    <svg viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="absolute sm:top-8 right-8 w-10 md:w-14 ml-auto self-end sm:mb-6">
-                        <polygon points="44,0 1,0 1,14 33.7,14 0,47.7 9.9,57.6 44,23.5 44,57 58,57 58,14 58,0 " fill="#181818"/>
+                <div
+                     class="max-sm:min-h-24 sm:max-md:flex-1 md:w-full sm:min-w-[188px] lg:max-w-[336px] border-[1px] border-black dark:border-white pt-6 sm:pt-10 lg:pt-[109px] pb-10 sm:pb-16 px-7 sm:px-11 relative max-lg:order-3">
+                    <svg viewBox="0 0 58 58"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         class="absolute sm:top-8 right-8 w-10 md:w-14 ml-auto self-end sm:mb-6">
+                        <polygon points="44,0 1,0 1,14 33.7,14 0,47.7 9.9,57.6 44,23.5 44,57 58,57 58,14 58,0 "
+                                 fill="#181818" />
                     </svg>
-                    <a href="" data-translate="projects-page" class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent mb-6">Page</a>
+                    <a href="https://pets42.gitlab.io/webpackflow/"
+                       data-translate="projects-page"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent mb-6">Page</a>
                     <br>
                     <br>
-                    <a href="" class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent">GitLab</a>
+                    <a href="https://gitlab.com/pets42/webpackflow"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent">GitLab</a>
                 </div>
             </div>
-            <div class="flex sm:max-lg:flex-wrap max-sm:flex-col min-w-min w-full border-[1px] border-black mb-8 sm:mb-16">
-                <div class="sm:min-w-[212px] sm:max-md:w-[50%] border-[1px] border-black dark:border-white pt-6 sm:pt-10 md:pt-[109px] pb-6 sm:pb-10 sm:max-md:px-7 max-lg:order-2">
-                    <ul class="flex flex-col flex-wrap xs:max-sm:max-h-12 list-disc list-inside px-5 whitespace-nowrap">
+            <div
+                 class="flex sm:max-lg:flex-wrap max-sm:flex-col min-w-min w-full border-[1px] border-black dark:border-white mb-[-2px]">
+                <div
+                     class="sm:min-w-[212px] sm:max-md:w-[50%] border-[1px] border-black dark:border-white pt-6 sm:pt-10 md:pt-[109px] pb-6 sm:pb-10 sm:max-md:px-7 max-lg:order-2 max-xs:pl-3">
+                    <ul
+                        class="flex flex-col flex-wrap xs:max-sm:max-h-12 list-disc list-inside px-5 whitespace-nowrap max-sm:grid max-sm:grid-cols-2 max-xs:grid-cols-1">
                         <li>figma</li>
                         <li>html</li>
                         <li class="max-sm:order-4">tailwind css</li>
@@ -227,75 +384,218 @@
                         <li class="max-sm:order-3">yarn</li>
                     </ul>
                 </div>
-                <div class="sm:w-[55%] sm:max-lg:flex-1 sm:min-w-[460px] lg:max-w-[630px] border-[1px] border-black dark:border-white pt-10 sm:pt-12 pb-10 sm:pb-16 px-7 sm:px-11">
+                <div
+                     class="sm:w-[55%] sm:max-lg:flex-1 sm:min-w-[460px] lg:max-w-[630px] border-[1px] border-black dark:border-white pt-10 sm:pt-12 pb-10 sm:pb-16 px-7 sm:px-11">
                     <p class="font-sans font-extrabold text-lg sm:text-xl whitespace-nowrap mb-3">CV Project</p>
-                    <p data-translate="projects-cv-text">Creating an Acid Liquid style design in Figma and implementation of responsive layout.</p>
+                    <p data-translate="projects-cv-text">Creating an Acid Liquid style design in Figma and
+                        implementation of responsive layout.</p>
                     <br>
                     <div>
                         <p data-translate="projects-tasks">Tasks:</p>
                         <ul class="list-disc pl-5">
                             <li data-translate="projects-cv-li-1">independently develop a design layout,</li>
                             <li data-translate="projects-cv-li-2">mobile adaptive,</li>
-                            <li data-translate="projects-cv-li-3">dark and light themes (browser theme detection, button switching),</li>
+                            <li data-translate="projects-cv-li-3">dark and light themes (browser theme detection, button
+                                switching),</li>
                             <li data-translate="projects-cv-li-4">implementation using TailWind CSS,</li>
                             <li data-translate="projects-cv-li-5">English and Russian languages of the page.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="max-sm:min-h-24 sm:max-md:flex-1 md:w-full sm:min-w-[188px] lg:max-w-[336px] border-[1px] border-black dark:border-white pt-6 sm:pt-10 lg:pt-[109px] pb-10 sm:pb-16 px-7 sm:px-11 relative max-lg:order-3">
-                    <svg viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="absolute sm:top-8 right-8 w-10 md:w-14 ml-auto self-end sm:mb-6">
-                        <polygon points="44,0 1,0 1,14 33.7,14 0,47.7 9.9,57.6 44,23.5 44,57 58,57 58,14 58,0 " fill="#181818"/>
+                <div
+                     class="max-sm:min-h-24 sm:max-md:flex-1 md:w-full sm:min-w-[188px] lg:max-w-[336px] border-[1px] border-black dark:border-white pt-6 sm:pt-10 lg:pt-[109px] pb-10 sm:pb-16 px-7 sm:px-11 relative max-lg:order-3">
+                    <svg viewBox="0 0 58 58"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         class="absolute sm:top-8 right-8 w-10 md:w-14 ml-auto self-end sm:mb-6">
+                        <polygon points="44,0 1,0 1,14 33.7,14 0,47.7 9.9,57.6 44,23.5 44,57 58,57 58,14 58,0 "
+                                 fill="#181818" />
                     </svg>
-                    <a href="https://darmush.github.io/CV-2023/" data-translate="projects-page" class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent mb-6">Page</a>
+                    <a href="https://darmush.github.io/CV-2023/"
+                       data-translate="projects-page"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent mb-6">Page</a>
                     <br>
                     <br>
-                    <a href="https://github.com/darmush/CV-2023" class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent">GitHub</a>
+                    <a href="https://github.com/darmush/CV-2023"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent">GitHub</a>
                     <br>
                     <br>
-                    <a href="https://www.figma.com/file/2atHzJSZPvATUBJDmcZdpZ/CV2023?type=design&node-id=0%3A1&t=THDIncue4d8dfkoI-1" data-translate="projects-figma-layout" class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent whitespace-nowrap">Figma layout</a>
+                    <a href="https://www.figma.com/file/2atHzJSZPvATUBJDmcZdpZ/CV2023?type=design&node-id=0%3A1&t=THDIncue4d8dfkoI-1"
+                       data-translate="projects-figma-layout"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent whitespace-nowrap">Figma
+                        layout</a>
                 </div>
             </div>
-            <div class="flex sm:max-lg:flex-wrap max-sm:flex-col min-w-min w-full border-[1px] border-black mb-16">
-                <div class="sm:min-w-[212px] sm:max-md:w-[50%] border-[1px] border-black dark:border-white pt-6 sm:pt-10 md:pt-[109px] pb-6 sm:pb-10 sm:max-md:px-7 max-lg:order-2">
+            <div
+                 class="flex sm:max-lg:flex-wrap max-sm:flex-col min-w-min w-full border-[1px] border-black dark:border-white mb-[-2px]">
+                <div
+                     class="sm:min-w-[212px] sm:max-md:w-[50%] border-[1px] border-black dark:border-white pt-6 sm:pt-10 md:pt-[109px] pb-6 sm:pb-10 sm:max-md:px-7 max-lg:order-2 max-xs:pl-3">
+                    <ul
+                        class="flex flex-col flex-wrap xs:max-sm:max-h-12 list-disc list-inside px-5 whitespace-nowrap max-sm:grid max-sm:grid-cols-2 max-xs:grid-cols-1">
+                        <li>html</li>
+                        <li class="max-sm:order-4">tailwind css</li>
+                        <li class="max-sm:order-5">javascript</li>
+                        <li class="max-sm:order-3">webpack</li>
+                        <li class="max-sm:order-2">vue 3</li>
+                    </ul>
+                </div>
+                <div
+                     class="sm:w-[55%] sm:max-lg:flex-1 sm:min-w-[460px] lg:max-w-[630px] border-[1px] border-black dark:border-white pt-10 sm:pt-12 pb-10 sm:pb-16 px-7 sm:px-11">
+                    <p class="font-sans font-extrabold text-lg sm:text-xl whitespace-nowrap mb-3">Pusk on Vue</p>
+                    <p data-translate="projects-pusk-text">Implementing a responsive multi-page layout with Vue.</p>
+                    <br>
+                    <div>
+                        <p data-translate="projects-tasks">Tasks:</p>
+                        <ul class="list-disc pl-5">
+                            <li data-translate="projects-pusk-li-1">implementation using Vue 3,</li>
+                            <li data-translate="projects-pusk-li-2">creating reusable Vue component system,</li>
+                            <li data-translate="projects-pusk-li-3">setting up page routing,</li>
+                            <li data-translate="projects-pusk-li-4">implementation using TailWind CSS,</li>
+                            <li data-translate="projects-pusk-li-5">mobile adaptive.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                     class="max-sm:min-h-24 sm:max-md:flex-1 md:w-full sm:min-w-[188px] lg:max-w-[336px] border-[1px] border-black dark:border-white pt-6 sm:pt-10 lg:pt-[109px] pb-10 sm:pb-16 px-7 sm:px-11 relative max-lg:order-3">
+                    <svg viewBox="0 0 58 58"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         class="absolute sm:top-8 right-8 w-10 md:w-14 ml-auto self-end sm:mb-6">
+                        <polygon points="44,0 1,0 1,14 33.7,14 0,47.7 9.9,57.6 44,23.5 44,57 58,57 58,14 58,0 "
+                                 fill="#181818" />
+                    </svg>
+                    <a href="https://darmush.github.io/pusk-vue/"
+                       data-translate="projects-page"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent mb-6">Page</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/darmush/pusk-vue"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent">GitHub</a>
+                </div>
+            </div>
+            <div
+                 class="flex sm:max-lg:flex-wrap max-sm:flex-col min-w-min w-full border-[1px] border-black dark:border-white mb-8 sm:mb-16">
+                <div
+                     class="sm:min-w-[212px] sm:max-md:w-[50%] border-[1px] border-black dark:border-white pt-6 sm:pt-10 md:pt-[109px] pb-6 sm:pb-10 sm:max-md:px-7 max-lg:order-2 max-xs:pl-3">
+                    <ul
+                        class="flex flex-col flex-wrap xs:max-sm:max-h-12 list-disc list-inside px-5 whitespace-nowrap max-sm:grid max-sm:grid-cols-2 max-xs:grid-cols-1">
+                        <li>html</li>
+                        <li class="max-sm:order-4">tailwind css</li>
+                        <li class="max-sm:order-5">javascript</li>
+                        <li class="max-sm:order-3">webpack</li>
+                        <li class="max-sm:order-2">yarn</li>
+                    </ul>
+                </div>
+                <div
+                     class="sm:w-[55%] sm:max-lg:flex-1 sm:min-w-[460px] lg:max-w-[630px] border-[1px] border-black dark:border-white pt-10 sm:pt-12 pb-10 sm:pb-16 px-7 sm:px-11">
+                    <p class="font-sans font-extrabold text-lg sm:text-xl whitespace-nowrap mb-3">Color Game</p>
+                    <p data-translate="projects-color-game-text">Creating a simple game based on the principle of finding the extra color.</p>
+                    <br>
+                    <div>
+                        <p data-translate="projects-tasks">Tasks:</p>
+                        <ul class="list-disc pl-5">
+                            <li data-translate="projects-color-game-li-1">writing technical specifications,</li>
+                            <li data-translate="projects-color-game-li-2">generation of playing field elements with random fill color,</li>
+                            <li data-translate="projects-color-game-li-3">creating a countdown timer with the ability to pause it,</li>
+                            <li data-translate="projects-color-game-li-4">limiting the number of unsuccessful attempts to select the correct element,</li>
+                            <li data-translate="projects-color-game-li-5">implement an increase in game difficulty,</li>
+                            <li data-translate="projects-color-game-li-6">saving and displaying achievements,</li>
+                            <li data-translate="projects-color-game-li-7">dark and light themes.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                     class="max-sm:min-h-24 sm:max-md:flex-1 md:w-full sm:min-w-[188px] lg:max-w-[336px] border-[1px] border-black dark:border-white pt-6 sm:pt-10 lg:pt-[109px] pb-10 sm:pb-16 px-7 sm:px-11 relative max-lg:order-3">
+                    <svg viewBox="0 0 58 58"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         class="absolute sm:top-8 right-8 w-10 md:w-14 ml-auto self-end sm:mb-6">
+                        <polygon points="44,0 1,0 1,14 33.7,14 0,47.7 9.9,57.6 44,23.5 44,57 58,57 58,14 58,0 "
+                                 fill="#181818" />
+                    </svg>
+                    <a href="https://darmush.github.io/color-game/"
+                       data-translate="projects-page"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent mb-6">Page</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/darmush/color-game"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent">GitHub</a>
+                    <br>
+                    <br>
+                    <a href="https://easy-frill-c84.notion.site/Color-Game-4854f3ae7aa4473c885d26b878eaadce?pvs=4"
+                       data-translate="projects-technical-assignment"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent sm:max-md:leading-7 lg:leading-8">Technical Assignment</a>
+                </div>
+            </div>
+            <div class="flex sm:max-lg:flex-wrap max-sm:flex-col min-w-min w-full border-[1px] border-black dark:border-white mb-16">
+                <div
+                     class="sm:min-w-[212px] sm:max-md:w-[50%] border-[1px] border-black dark:border-white pt-6 sm:pt-10 md:pt-[109px] pb-6 sm:pb-10 sm:max-md:px-7 max-lg:order-2">
                     <ul class="flex flex-col flex-wrap xs:max-sm:max-h-12 list-disc list-inside px-5 whitespace-nowrap">
                         <li>javascript</li>
                     </ul>
                 </div>
-                <div class="sm:w-[55%] sm:max-lg:flex-1 sm:min-w-[460px] lg:max-w-[630px] border-[1px] border-black dark:border-white pt-10 sm:pt-12 pb-10 sm:pb-16 px-7 sm:px-11">
+                <div
+                     class="sm:w-[55%] sm:max-lg:flex-1 sm:min-w-[460px] lg:max-w-[630px] border-[1px] border-black dark:border-white pt-10 sm:pt-12 pb-10 sm:pb-16 px-7 sm:px-11">
                     <p class="font-sans font-extrabold text-lg sm:text-xl whitespace-nowrap mb-3">Codewars</p>
                     <p data-translate="projects-codewars-text">Solving katas on the Codewars.</p>
                 </div>
-                <div class="max-sm:min-h-24 sm:max-md:flex-1 md:w-full sm:min-w-[188px] lg:max-w-[336px] border-[1px] border-black dark:border-white pt-6 sm:pt-10 lg:pt-[109px] pb-12 sm:pb-16 px-7 sm:px-11 relative max-lg:order-3">
-                    <svg viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="absolute sm:top-8 right-8 w-10 md:w-14 ml-auto self-end sm:mb-6">
-                        <polygon points="44,0 1,0 1,14 33.7,14 0,47.7 9.9,57.6 44,23.5 44,57 58,57 58,14 58,0 " fill="#181818"/>
+                <div
+                     class="max-sm:min-h-24 sm:max-md:flex-1 md:w-full sm:min-w-[188px] lg:max-w-[336px] border-[1px] border-black dark:border-white pt-6 sm:pt-10 lg:pt-[109px] pb-12 sm:pb-16 px-7 sm:px-11 relative max-lg:order-3">
+                    <svg viewBox="0 0 58 58"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         class="absolute sm:top-8 right-8 w-10 md:w-14 ml-auto self-end sm:mb-6">
+                        <polygon points="44,0 1,0 1,14 33.7,14 0,47.7 9.9,57.6 44,23.5 44,57 58,57 58,14 58,0 "
+                                 fill="#181818" />
                     </svg>
-                    <a data-translate="projects-codewars-profile" href="https://www.codewars.com/users/darmush" class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent mb-6 whitespace-nowrap">My profile</a>
+                    <a data-translate="projects-codewars-profile"
+                       href="https://www.codewars.com/users/darmush"
+                       class="projects-link underline underline-offset-8 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent mb-6 whitespace-nowrap">My
+                        profile</a>
                 </div>
             </div>
-            <div class="w-full flex text-gray text-xs justify-between relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                <p data-translate="technologies" class="max-lg:order-2">technologies</p>
-                <p data-translate="projects-about" class="max-lg:order-1">about</p>
-                <p data-translate="projects-links" class="max-lg:order-3">links</p>
+            <div
+                 class="w-full flex text-gray text-xs justify-between relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-3 after:w-screen after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                <p data-translate="technologies"
+                   class="max-lg:order-2">technologies</p>
+                <p data-translate="projects-about"
+                   class="max-lg:order-1">about</p>
+                <p data-translate="projects-links"
+                   class="max-lg:order-3">links</p>
             </div>
         </section>
-        <section id="contacts" data-section="contacts" class="flex flex-col items-center mx-auto max-w-xs mb-[20vh]">
-            <h2 data-translate="contacts-title" class="text-md sm:text-xl tracking-wider font-sans text-center mb-12 sm:mb-16">Contacts</h2>
+        <section id="contacts"
+                 data-section="contacts"
+                 class="flex flex-col items-center mx-auto max-w-xs mb-32 sm:mb-32 pt-24 sm:pt-32">
+            <h2 data-translate="contacts-title"
+                class="text-md sm:text-xl tracking-wider font-sans text-center mb-12 sm:mb-16">Contacts</h2>
             <div class="flex flex-col">
-                <div class="flex justify-between mb-8 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                    <a href="" class="block font-bold relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black">LinkedIn</a>
-                    <a href="https://github.com/darmush" class="block font-bold relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black">GitHub</a>
+                <div
+                     class="flex justify-between mb-8 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                    <a href=""
+                       class="block font-bold relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black">LinkedIn</a>
+                    <a href="https://github.com/darmush"
+                       class="block font-bold relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black">GitHub</a>
                 </div>
-                <div class="flex justify-between mb-7 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
-                    <a href="https://t.me/gribooli" class="block font-bold relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black">Telegram</a>
-                    <a href="https://wa.me/77478500537" class="block font-bold relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black">WhatsApp</a>
+                <div
+                     class="flex justify-between mb-7 relative after:content-[''] after:block after:absolute after:left-[50%] after:-translate-x-[50%] after:-bottom-2 after:w-full after:h-[2px] dark:after:bg-gray-lines-dark after:bg-gray-lines">
+                    <a href="https://t.me/gribooli"
+                       class="block font-bold relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black">Telegram</a>
+                    <a href="https://wa.me/77478500537"
+                       class="block font-bold relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black">WhatsApp</a>
                 </div>
-                <a href="mailto:podskrebalina.d@hotmail.com" class="block underline underline-offset-8 mb-12 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent">podskrebalina.d@hotmail.com</a>
-                <a href="./files/Podskrebalina_Darya_Frontend_Developer_en.pdf" data-translate="contacts-download" class="download-btn block w-full border-2 border-accent bg-accent dark:bg-none dark:border-none dark:hover:bg-white hover:transition-colors hover:bg-light-bg transition-colors dark:text-black font-bold text-center py-9" download>download resume // pdf</a>
+                <a href="mailto:podskrebalina.d@hotmail.com"
+                   class="block underline underline-offset-8 mb-12 relative after:contents-[''] after:block after:absolute after:z-[-10] after:bottom-0 hover:after:w-[calc(100%+12px)] after:left-[-6px] after:h-full after:bg-accent dark:hover:text-black dark:hover:decoration-accent">podskrebalina.d@hotmail.com</a>
+                <a href="./files/Podskrebalina_Darya_Frontend_Developer_en.pdf"
+                   data-translate="contacts-download"
+                   class="download-btn block w-full border-2 border-accent bg-accent dark:bg-none dark:border-none dark:hover:bg-white hover:transition-colors hover:bg-light-bg transition-colors dark:text-black font-bold text-center py-9"
+                   download>download resume // pdf</a>
             </div>
         </section>
         <footer class="flex items-center justify-center text-xs mb-6">
-            <p class="dark:text-accent text-gray">© 2023, Darya Podskrebalina</p>
+            <p class="text-center dark:text-accent text-gray">© 2023, Darya Podskrebalina</p>
         </footer>
     </div>
 </body>
+
 </html>

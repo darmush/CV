@@ -38,6 +38,9 @@ module.exports = {
         sans: ['Montserrat', 'sans-serif'],
         serif: ['Anonymous Pro', 'serif'],
       },
+      backgroundImage: {
+        'noise-texture': "url('./img/noise.gif')",
+      },
       animation: {
         'opacity': 'opacity 800ms ease-in-out forwards',
         'opacity-reverse': 'opacity-reverse 300ms ease-in-out',
@@ -57,7 +60,7 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(calc(+100% + 1rem))' },
         },
-      }
+      },
     },
   },
   plugins: [],
