@@ -45,18 +45,13 @@
     },
 
     "about-text-1": {
-        "en": "I am a front-end developer from Kazakhstan. I currently live in Georgia.",
-        "ru": "Я фронтенд разработчица из Казахстана. Сейчас живу в Грузии."
+        "en": "Experience working in web design studios has improved my attention to detail and developed a love for creating intuitive, attractive and interactive interfaces. I strive to apply my creative skills in development and bring fresh ideas to team projects.",
+        "ru": "Опыт работы в студиях веб-дизайна прокачал во мне внимание к деталям и развил любовь к созданию интуитивно понятных, привлекательных и интерактивных интерфейсов. Стремлюсь применить свои креативные навыки в разработке и вносить свежие идеи в командные проекты."
     },
 
     "about-text-2": {
-        "en": "I love when the complex becomes simple with the help of visualization. I love cool interactive design and animation.",
-        "ru": "Обожаю, когда сложное становится простым при помощи визуализации. Люблю классный интерактивный дизайн и анимацию."
-    },
-
-    "about-text-3": {
-        "en": "I consider accessibility and good user experience important. I strive to create services that can be used by as many people as possible.",
-        "ru": "Считаю важными доступность и хороший пользовательский опыт. Стремлюсь создавать сервисы, которыми смогут пользоваться как можно большее количество людей."
+        "en": "In my free time, I am interested in studying user experience optimization. Independence, passion for planning, open communications are the foundation of my personality.",
+        "ru": "В свободное время увлекаюсь изучением оптимизации пользовательского опыта. Самостоятельность, страсть к планированию, открытые коммуникации — мои личные три софт кита."
     },
 
     "about-title-education": {
@@ -100,8 +95,8 @@
     },
 
     "about-des-self": {
-        "en": "Work on the ceramic brand Gribooli. Creation and sale of clay products, participation in markets, maintaining social networks.",
-        "ru": "Работа над керамическим брендом Gribooli. Создание и продажа изделий из глины, участие в маркетах, ведение соцсетей."
+        "en": "Work on the ceramic brand Gribooli. Organization of production and sales of products, participation in markets, management of social networks.",
+        "ru": "Работа над керамическим брендом Gribooli. Налаживание производства и продажи продукции, участие в маркетах, ведение соцсетей."
     },
 
     "about-des-self-place": {
@@ -119,14 +114,24 @@
         "ru": "Обучение на курсе JS Course RS School. Самообучение по материалам в открытом доступе. Работа над пэт проектами под руководством ментора."
     },
 
+    "about-pos-assistant": {
+        "en": "Personal Assistant",
+        "ru": "Личный ассистент"
+    },
+
+    "about-des-assistant": {
+        "en": "Organizing and setting up processes, recording tasks, creating schedules, planning and organizing trips.",
+        "ru": "Организация и налаживание процессов, фиксирование задач, составление расписаний, планирование и организация поездок."
+    },
+
     "about-pos-developer": {
         "en": "Frontend Developer",
         "ru": "Фронтенд разработчица"
     },
 
     "about-des-developer": {
-        "en": "In the process of looking for a job. ",
-        "ru": "В процессе поиска работы."
+        "en": "Project work. In the process of looking for a job. ",
+        "ru": "Проектная работа. В процессе поиска работы."
     },
 
     "about-des-developer-link": {
@@ -155,8 +160,8 @@
     },
 
     "english": {
-        "en": "english // a2",
-        "ru": "английский // a2"
+        "en": "english // b1",
+        "ru": "английский // b1"
     },
 
     "languages": {
@@ -187,6 +192,36 @@
     "projects-tasks": {
         "en": "Tasks:",
         "ru": "Задачи:"
+    },
+
+    "projects-tm-text": {
+        "en": "Creating a simple task manager on Vue 3 with a calendar and tags.",
+        "ru": "Создание простого менеджера задач на Vue 3 с календарём и тегами."
+    },
+
+    "projects-tm-li-1": {
+        "en": "task creation card with description, tag selection, due date,",
+        "ru": "карточка создания задачи с описанием, выбором тега, даты выполнения,"
+    },
+
+    "projects-tm-li-2": {
+        "en": "list of all tasks with sorting, pinned tasks and pagination,",
+        "ru": "список всех задач с сортировкой, закреплёнными задачами и пагинацией,"
+    },
+
+    "projects-tm-li-3": {
+        "en": "implement the ability to edit a task and tags,",
+        "ru": "реализовать возможность редактировать задачу и теги,"
+    },
+
+    "projects-tm-li-4": {
+        "en": "use Pinia Store to manage the state of the app,",
+        "ru": "использование Pinia Store для управления состоянием прилолжения,"
+    },
+
+    "projects-tm-li-5": {
+        "en": "storing tasks in Local Storage.",
+        "ru": "хранение задач в Local Storage."
     },
 
     "projects-holi-text": {

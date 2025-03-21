@@ -12,7 +12,7 @@ module.exports = {
   target,
   devtool,
 	devServer: {
-      port: 2023,
+      port: 2025,
       open: true,
       hot: true,
   },

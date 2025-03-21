@@ -2,10 +2,10 @@
   "name": "cv",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/darmush/CV-2023.git",
+  "repository": "https://github.com/darmush/CV.git",
   "author": "Darya Podskrebalina <2012dr2012@gmail.com>",
   "license": "MIT",
-  "homepage": "https://darmush.github.io/CV-2023",
+  "homepage": "https://darmush.github.io/CV",
   "scripts": {
     "start": "webpack serve",
     "dev": "webpack",
